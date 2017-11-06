@@ -1,0 +1,56 @@
+/*-------------------------------------------------------------------------------------
+Theme Name: manmuni
+Theme URI:  http://emejias.com
+Version:    1.0
+Author: The emejias Team
+-------------------------------------------------------------------------------------*/
+
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css);
+@import url(assets/css/menu.css);
+@import url(assets/css/theme-style.css);
+/*Your custom colour override*/
+@import url(assets/css/colour-blue.css);
+/*Your custom override */
+@import url(assets/css/custom-style.css);
+/*
+    Optional: ICON SETS -->
+    Iconset: Font Awesome 4.7.0 via CDN
+ */
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+@import url(http://fonts.googleapis.com/css?family=Rambla);
+@import url(http://fonts.googleapis.com/css?family=Calligraffitti);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+
+
+.div-img .img {
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.div-img:hover .img {
+  transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+#content-below a{
+  color: white !important;
+}
+
+
+
+
+
+
+
+
+
+
