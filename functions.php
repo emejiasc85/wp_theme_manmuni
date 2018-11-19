@@ -1,4 +1,6 @@
 <?php
+    update_option( 'siteurl', 'http://manmuni.em' );
+    update_option( 'home', 'http://manmuni.em' );
     /*
     //set default excerpt length
     function custom_excerpt_length( $length ) {
@@ -99,7 +101,3 @@
     }
 
     add_action('widgets_init', 'contact_sidebar' );
-
-
-
-
